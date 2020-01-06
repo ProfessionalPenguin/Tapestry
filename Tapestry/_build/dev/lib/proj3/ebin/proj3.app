@@ -1,0 +1,11 @@
+{application,proj3,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"proj3"},
+              {modules,['Elixir.Proj3.MainServer','Elixir.Proj3.Node',
+                        'Elixir.Proj3.NodeSupervisor',
+                        'Elixir.Proj3.Project3']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {error,{"no such file or directory",
+                      "Elixir.Proj3.Project3.app"}},
+              {mod,{'Elixir.Proj3.Project3',[]}}]}.
